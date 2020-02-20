@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~primeng/resources/primeng.min.css";
 @import "~primeng/resources/themes/nova-dark/theme.css";
+@import "~primeicons/primeicons.css";
 
 body {
   margin: 0;
@@ -29,5 +30,7 @@ label {
   text-align: center;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.col-acoes {
+  width: 90px;
+  text-align: center;
+}
